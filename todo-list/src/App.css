@@ -1,0 +1,56 @@
+body{
+  background: 2 radial-gradient(#000 15%, transparent 16%) 0 0,
+  radial-gradient(#000 15%, transparent 16%) 8px 8px, 
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px, 
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px; 
+  background-color:#282828; 
+  background-size:16px 16px;
+  color: white;
+  font-size: large;
+  font-style: italic;
+}
+input{
+  outline:none;
+  border-radius: 25px;
+  border: 7px solid white;
+  height: 25px;
+  width: 160px;
+}
+button{
+  border: none;
+  margin-left: 25px;
+  cursor: pointer;
+  background-color: rgb(132, 0, 255);
+  border-radius: 35px;
+  height: 45px;
+  width: 45px;
+  color: white;
+  font-style: italic;
+}
+.App {
+  margin-top: 25px;
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+
+li{
+  display: flex;
+  margin-left: 25%;
+  align-items: center;
+  gap: 25px;
+  margin-top: 5px;
+}
+.deleteButton{
+  color: rgb(132, 0, 255);
+  cursor: pointer;
+}
+input:checked + span{
+  text-decoration: line-through;
+}
+
+
+
+
+
